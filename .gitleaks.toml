@@ -1,0 +1,11 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Test fixtures: throwaway PKCS#12 certificates and a hard-coded loopback token"
+paths = [
+  '''^crates/sign/tests/data/.*\.p12$''',
+]
+regexes = [
+  '''0123456789abcdef''',
+]
