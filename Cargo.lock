@@ -2841,9 +2841,9 @@ dependencies = [
 
 [[package]]
 name = "log"
-version = "0.4.34"
+version = "0.4.35"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f9f8bd3e56ce4dfc153cf470fffbfa98c7620958b312ca5c3a4b8d5181fd13c6"
+checksum = "5d15f86d12da44cd8d4ec3c73984537eb7f4cadcb9776a575a0a8a05ca11005c"
 
 [[package]]
 name = "lopdf"
@@ -3621,7 +3621,7 @@ dependencies = [
 name = "pdfcraft-automation"
 version = "0.7.1"
 dependencies = [
- "base64 0.22.1",
+ "base64 0.23.1",
  "flate2",
  "image",
  "pdfcraft-cos",
@@ -3642,7 +3642,7 @@ dependencies = [
 name = "pdfcraft-cli"
 version = "0.7.1"
 dependencies = [
- "base64 0.22.1",
+ "base64 0.23.1",
  "pdfcraft-audit",
  "pdfcraft-automation",
  "pdfcraft-cos",
@@ -3925,7 +3925,7 @@ version = "0.7.1"
 dependencies = [
  "aes",
  "aws-lc-rs",
- "base64 0.22.1",
+ "base64 0.23.1",
  "bp256",
  "bp384",
  "cbc",
@@ -3958,7 +3958,7 @@ name = "pdfcraft-ui-egui"
 version = "0.7.1"
 dependencies = [
  "arboard",
- "base64 0.22.1",
+ "base64 0.23.1",
  "bytemuck",
  "craft-ui",
  "eframe",
@@ -4011,7 +4011,7 @@ dependencies = [
 name = "pdfcraft-xfa"
 version = "0.7.1"
 dependencies = [
- "base64 0.22.1",
+ "base64 0.23.1",
  "image",
  "pdfcraft-cos",
  "pdfcraft-fonts",
@@ -6798,9 +6798,9 @@ dependencies = [
  "android-activity",
  "atomic-waker",
  "bitflags 2.13.2",
- "block2 0.5.1",
+ "block2 0.6.2",
  "bytemuck",
- "calloop 0.13.0",
+ "calloop 0.14.4",
  "cfg_aliases",
  "concurrent-queue",
  "core-foundation 0.9.4",
