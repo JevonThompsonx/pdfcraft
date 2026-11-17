@@ -313,7 +313,7 @@ default-features = false
 version = "0.4.2"
 
 [target.'cfg(any(target_os = "ios", target_os = "macos"))'.dependencies.block2]
-version = "0.5.1"
+version = "0.6.0"
 
 [target.'cfg(any(target_os = "ios", target_os = "macos"))'.dependencies.core-foundation]
 version = "0.9.3"
