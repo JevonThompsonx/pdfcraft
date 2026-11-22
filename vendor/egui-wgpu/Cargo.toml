@@ -91,12 +91,12 @@ version = "1.25"
 version = "0.2.12"
 
 [dependencies.egui]
-version = "0.36.2"
+version = "0.37.0"
 optional = true
 default-features = false
 
 [dependencies.epaint]
-version = "0.36.2"
+version = "0.37.0"
 features = ["bytemuck"]
 default-features = false
 
