@@ -316,7 +316,7 @@ version = "0.4.2"
 version = "0.6.0"
 
 [target.'cfg(any(target_os = "ios", target_os = "macos"))'.dependencies.core-foundation]
-version = "0.9.3"
+version = "0.10.0"
 
 [target.'cfg(any(target_os = "ios", target_os = "macos"))'.dependencies.objc2]
 version = "0.5.2"
